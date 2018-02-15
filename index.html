@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- puede poner <html lang = "en"> para el idioma en el browser-->
 <html>
 	
 	<head>
@@ -7,13 +8,17 @@
 
       <title>Germán Andrade</title>
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+		<!-- Sería bueno agregar un tag para descripción de la pag como:-->
+      <meta name="description" content="Resume Web Page.">
+		<!-- Pienso que es relevante poner el tag del autor como:-->
+      <meta name="author" content="German Andrade">
       <link rel="stylesheet" type="text/css" href="./css/main.css">
       
       <meta charset='utf-8'>
 	</head>
 	<body>
-
+<!-- Pienso que la documentacin es importante para entender el código despúes, podría agregar documentación para cada sección de su pagina-->
+<!-- Section: Navigation-->		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -34,7 +39,7 @@
 		      </ul>
 		  </div>
 		</nav>
-
+<!-- /Section: Navigation-->
 	  
            	<!--
       <li class="active"><a href="#interests">Interests</a></li>
@@ -43,7 +48,7 @@
       <li><a href="#skills">Skills</a></li>
            
 		    -->
-
+<!-- Section: Caracteristicas?Home?-->			
 		<div align="center">
 		  <br/>
 		  <br/>
@@ -60,7 +65,8 @@
 		      <li class="item">Pragmatic.&emsp;</li>
 
 		  </div>
-
+<!-- /Section: Caracteristicas?Home?-->	
+<!-- Section: Interests-->				  
 		  <div class="divMenu divInterests">
             <h1 id="interests"> Interests </h1>
             <ul id="lista">
@@ -70,9 +76,11 @@
 		      <li class="item">Competitive programing</li>
 		    </ul>
 		  </div>
-		  
+<!-- /Section: Interests-->	  
 		  <div class="divMenu divExperience">
 			  <h1 id="experience">Experience</h1>
+			  <!-- Agregar alt attr a las imagenes-->
+			  <!-- Puede agregar algun tipo de padding a las imagenes para que queden más separadas-->
 			  <img src="./images/ngsep.png" class="img-circle games modals">
 			  <img src="./images/cupiTaller.png" class="img-circle games modals">
 			  <img src="./images/uniandes.jpg" class="img-circle games modals">
@@ -80,6 +88,8 @@
 
 		  <div class="divMenu divGames">
           	  <h1 id="games"> Hobbies </h1>
+			   <!-- Agregar alt attr a las imagenes-->
+			   <!-- Puede agregar algun tipo de padding a las imagenes para que queden más separadas-->
               <a  href="https://www.chess.com/stats/live/germancandradem?type=blitz" target="_blank"><img src="./images/chess.jpg" class="img-circle games"></a>
 		      <a  href="http://us.battle.net/sc2/en/profile/1362738/2/Hanibal/" target="_blank"><img src="./images/zerg.jpg" class="img-circle games" /> </a>
 		      <a  href="http://www.deezer.com/playlist/2360140206" target="_blank"><img src="./images/music.png" class="img-circle games" /> </a>
@@ -87,12 +97,15 @@
 			  <img src="./images/ultimate.jpg" class="img-circle games" /> </a>
           </div>
 
+			  <!-- Esta parte de Skills en la pagWeb no es muy diciente, puede agregar alguna descripción-->
           <div class="divMenu divSkills">
           	  <h1 id="skills"> Skills </h1>
+		  <!-- Agregar alt attr a las imagenes-->
+		  <!-- Puede agregar algun tipo de padding a las imagenes para que queden más separadas-->
               	<img src="./images/lider.jpg" class="img-circle games">
 		      	<img src="./images/creativity.png" class="img-circle games" /> 
           </div>
-
+<!-- Agregar alt attr a las imagenes-->
           <div class="divMenu divContact">
           	  <h1 id="skills"> Contact </h1>
               	<p class="pContact" color="white" align="rigth">gc.andrade10@uniandes.edu.co</p>
@@ -165,6 +178,7 @@
        	<!-- Latest compiled and minified JavaScript -->
        	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+	<!-- Documentación de lo que hace este script-->
 		<script type="text/javascript">
 			$('.nav.navbar-nav > li').on('click', function(e) 
 			{
